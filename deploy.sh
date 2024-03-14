@@ -2,8 +2,6 @@
 
 set -e
 
-echo "即将开始打包......."
-
 # npm run docs:build
 
 # cd docs/.vitepress/dist
@@ -36,6 +34,6 @@ git commit -m "${msg}"
 
 git push -v -f git@github.com:GitHubAsural/VitePressSite.git
 
-cd -
+# cd -
 # rm -rf docs/.vitepress/dist node_modules docs/.vitepress/cache
 rm -rf docs/.vitepress/dist docs/.vitepress/cache
