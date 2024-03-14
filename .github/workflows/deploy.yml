@@ -1,4 +1,3 @@
-# 新的令牌：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
 # 构建 VitePress 站点并将其部署到 GitHub Pages 的示例工作流程
 #
 name: Deploy VitePress site to Pages
