@@ -54,12 +54,8 @@ jobs:
 
   # 部署工作
   deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    needs: build
     runs-on: ubuntu-latest
-    name: Deploy
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
@@ -73,7 +69,8 @@ jobs:
           echo "AuthUserFile ${{ github.workspace }}/.htpasswd" >> .htaccess
           echo "Require valid-user" >> .htaccess
           cp .htaccess .vitepress/dist/
-
       - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          personal_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: .vitepress/dist
