@@ -62,22 +62,17 @@ jobs:
         uses: actions/checkout@v3
         with:
           node-version: '20'
-
-      # - name: Build and deploy
-      #   run: |
-      #     npm install
-      #     npm run build
-      #     echo "AuthType Basic" > .htaccess
-      #     echo "AuthName 'Restricted Content'" >> .htaccess
-      #     echo "AuthUserFile ${{ github.workspace }}/.htpasswd" >> .htaccess
-      #     echo "Require valid-user" >> .htaccess
-      #     cp .htaccess .vitepress/dist/
-      # - name: Deploy to GitHub Pages
-      #   uses: peaceiris/actions-gh-pages@v3
-      #   with:
-      #     personal_token: ${{ secrets.GITHUB_TOKEN }}
-      #     publish_dir: .vitepress/dist
-
+      - name: Build and deploy
+        run: |
+          npm install
+          npm run build
+          echo "AuthType Basic" > .htaccess
+          echo "AuthName 'Restricted Content'" >> .htaccess
+          echo "AuthUserFile ${{ github.workspace }}/.htpasswd" >> .htaccess
+          echo "Require valid-user" >> .htaccess
+          cp .htaccess .vitepress/dist/
       - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          personal_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: .vitepress/dist
