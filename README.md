@@ -7,5 +7,3 @@
 ### [预览GitHub的Page页面](https://githubasural.github.io/VitePressSite.github.io/)
 
 ### [GitHub的Page设置页面](https://github.com/GitHubAsural/VitePressSite.github.io/settings/pages)
-
-# 新的令牌：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
