@@ -76,5 +76,5 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          personal_token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+          personal_token: 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
           publish_dir: .vitepress/dist
