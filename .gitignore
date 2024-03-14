@@ -4,6 +4,7 @@
 dist
 cache
 .cache
+.vitepress
 .temp
 *.local
 html2md

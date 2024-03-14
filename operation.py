@@ -56,19 +56,23 @@ def run_command(command):
 def signal_handler(signal, frame):
     print ('\nSignal Catched! You have just type Ctrl+C! >>>>> 🚩')
     sys.exit(0)
+def printMsg():
+    print("*" * 50)
+    print("  👍 >>>>>> 文档目录树已重新编译完成！>>>>>>> 👍")
+    print("*" * 50)
 
 if __name__ == '__main__':
     signal.signal(signal.SIGINT, signal_handler)
     # 文档目录树已重新编译
     sidebar = generate_sidebar(document_dir)
     write_sidebar_to_json(sidebar)
-    print("文档目录树已重新编译完成！>>>>>>>> 👍")
+    printMsg()
     while True:
-        print("\033[1;35m菜单选择:\033[0m")
-        print("\033[1;36m1. 上传·代码到Github\033[0m")
-        print("\033[1;36m2. 在本地预览生产版本\033[0m")
-        print("\033[1;36m3. 重新编译文档目录树\033[0m")
-        print("\033[1;36m4. 重新安装VitePress\033[0m")
+        print("\033[1;31m菜单选择:\033[0m")
+        print("\033[1;32m1. 上传·代码到Github\033[0m")
+        print("\033[1;33m2. 在本地预览生产版本\033[0m")
+        print("\033[1;34m3. 重新编译文档目录树\033[0m")
+        print("\033[1;37m4. 重新安装VitePress\033[0m")
         print("\033[1;36m0. 退出\033[0m")
         choice = input("\033[1m请输入选项: \033[0m")
         
@@ -79,6 +83,7 @@ if __name__ == '__main__':
         elif choice == "3":
             sidebar = generate_sidebar(document_dir)
             write_sidebar_to_json(sidebar)
+            printMsg()
         elif choice == "4":
             run_command("npm run docs:vitepress")
         elif choice == "0":
