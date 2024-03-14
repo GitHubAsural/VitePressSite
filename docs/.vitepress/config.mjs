@@ -3,7 +3,7 @@ import jsonData from './data.json';
 
 export default defineConfig({
   lang: 'en-US',
-  // base:'/VitePressSite/',
+  base:'/VitePressSite/',
   title: "My Awesome Project",
   description: "A VitePress Site",
   appearance: true,
