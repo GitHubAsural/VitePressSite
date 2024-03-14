@@ -4,6 +4,7 @@
     "vitepress": "^1.0.0-rc.41"
   },
   "scripts": {
+    "build": "vitepress build",
     "docs:deploy": "./deploy.sh",
     "docs:vitepress": "npm add -D vitepress",
     "docs:dev": "vitepress dev docs",
