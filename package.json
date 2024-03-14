@@ -1,0 +1,13 @@
+{
+  "devDependencies": {
+    "http-auth": "^4.2.0",
+    "vitepress": "^1.0.0-rc.41"
+  },
+  "scripts": {
+    "docs:deploy": "./deploy.sh",
+    "docs:vitepress": "npm add -D vitepress",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  }
+}

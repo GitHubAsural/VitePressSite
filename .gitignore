@@ -1,0 +1,22 @@
+# OSX
+._*
+.env
+dist
+cache
+.cache
+.temp
+*.local
+.github
+html2md
+.DS_Store
+.DS_Store?
+.Trashes
+Icon?
+dist-ssr
+Thumbs.db
+*/.DS_Store
+ehthumbs.db
+node_modules
+.Spotlight-V100
+*.code-workspace
+package-lock.json

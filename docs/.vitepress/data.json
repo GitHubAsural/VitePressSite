@@ -1,0 +1,220 @@
+[
+  {
+    "text": "服务器",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "VPS",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "Oracle",
+            "collapsed": true,
+            "items": [
+              {
+                "text": "最新·甲骨文系统配置  + History",
+                "link": "documents/服务器/VPS/Oracle/最新·甲骨文系统配置  + History.md"
+              },
+              {
+                "text": "临时邮箱",
+                "link": "documents/服务器/VPS/Oracle/临时邮箱.md"
+              },
+              {
+                "text": "VPS x-ui申请SSL证书",
+                "link": "documents/服务器/VPS/Oracle/VPS x-ui申请SSL证书.md"
+              },
+              {
+                "text": "防止甲骨文被回收",
+                "link": "documents/服务器/VPS/Oracle/防止甲骨文被回收.md"
+              },
+              {
+                "text": "Docker项目脚本",
+                "link": "documents/服务器/VPS/Oracle/Docker项目脚本.md"
+              },
+              {
+                "text": "Ubuntu20.04配置OH-MY-ZSH",
+                "link": "documents/服务器/VPS/Oracle/Ubuntu20.04配置OH-MY-ZSH.md"
+              },
+              {
+                "text": "Oracle申请信息",
+                "link": "documents/服务器/VPS/Oracle/Oracle申请信息.md"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "text": "开发相关",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "Golang",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "Golang 的学习详解",
+            "link": "documents/开发相关/Golang/Golang 的学习详解.md"
+          },
+          {
+            "text": "获取唯一机器码",
+            "link": "documents/开发相关/Golang/获取唯一机器码.md"
+          },
+          {
+            "text": "Go打包压缩体积",
+            "link": "documents/开发相关/Golang/Go打包压缩体积.md"
+          },
+          {
+            "text": "Golang框架",
+            "collapsed": true,
+            "items": [
+              {
+                "text": "go-zero目前国内排名No.2",
+                "link": "documents/开发相关/Golang/Golang框架/go-zero目前国内排名No.2.md"
+              }
+            ]
+          },
+          {
+            "text": "Go SM4加解密",
+            "link": "documents/开发相关/Golang/Go SM4加解密.md"
+          },
+          {
+            "text": "创建Go项目",
+            "link": "documents/开发相关/Golang/创建Go项目.md"
+          }
+        ]
+      },
+      {
+        "text": "Flutter",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "数据可能就",
+            "link": "documents/开发相关/Flutter/数据可能就.md"
+          }
+        ]
+      },
+      {
+        "text": "Nginx",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "权限",
+            "link": "documents/开发相关/Nginx/权限.md"
+          },
+          {
+            "text": "nginx做VitePress访问限制",
+            "link": "documents/开发相关/Nginx/nginx做VitePress访问限制.md"
+          }
+        ]
+      },
+      {
+        "text": "Node",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "Mac上使用Zsh升级Node.js",
+            "link": "documents/开发相关/Node/Mac上使用Zsh升级Node.js.md"
+          },
+          {
+            "text": "npm修改镜像源",
+            "link": "documents/开发相关/Node/npm修改镜像源.md"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "text": "平时记录",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "VPS高速免费vps无限续期，hax",
+        "link": "documents/平时记录/VPS高速免费vps无限续期，hax.md"
+      },
+      {
+        "text": "PSN",
+        "link": "documents/平时记录/PSN.md"
+      },
+      {
+        "text": "Google Voice",
+        "link": "documents/平时记录/Google Voice.md"
+      },
+      {
+        "text": "创建美区id",
+        "link": "documents/平时记录/创建美区id.md"
+      }
+    ]
+  },
+  {
+    "text": "阿里云相关",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "Alist机器码",
+        "link": "documents/阿里云相关/Alist机器码.md"
+      },
+      {
+        "text": "VPS高速免费vps无限续期，hax",
+        "link": "documents/阿里云相关/VPS高速免费vps无限续期，hax.md"
+      }
+    ]
+  },
+  {
+    "text": "文档相关",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "run",
+        "link": "documents/文档相关/run.md"
+      }
+    ]
+  },
+  {
+    "text": "软件+技术",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "Mac 安装软件",
+        "link": "documents/软件+技术/Mac 安装软件.md"
+      },
+      {
+        "text": "最新版青龙面板V2.15.0",
+        "link": "documents/软件+技术/最新版青龙面板V2.15.0.md"
+      },
+      {
+        "text": "脚本",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "定时执行脚本🌿",
+            "link": "documents/软件+技术/脚本/定时执行脚本🌿.md"
+          },
+          {
+            "text": "后台执行脚本🌿",
+            "link": "documents/软件+技术/脚本/后台执行脚本🌿.md"
+          }
+        ]
+      },
+      {
+        "text": "Ubuntu下安装Node",
+        "link": "documents/软件+技术/Ubuntu下安装Node.md"
+      },
+      {
+        "text": "PM2",
+        "link": "documents/软件+技术/PM2.md"
+      }
+    ]
+  },
+  {
+    "text": "Git操作",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "Git创建项目基本操作",
+        "link": "documents/Git操作/Git创建项目基本操作.md"
+      }
+    ]
+  }
+]
