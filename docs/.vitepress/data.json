@@ -214,6 +214,20 @@
       {
         "text": "Git创建项目基本操作",
         "link": "documents/Git操作/Git创建项目基本操作.md"
+      },
+      {
+        "text": "Git操作",
+        "collapsed": true,
+        "items": [
+          {
+            "text": "1..gitignore文件常见错误",
+            "link": "documents/Git操作/Git操作/1..gitignore文件常见错误.md"
+          },
+          {
+            "text": "2..gitignore",
+            "link": "documents/Git操作/Git操作/2..gitignore.md"
+          }
+        ]
       }
     ]
   }
