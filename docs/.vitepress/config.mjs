@@ -10,11 +10,14 @@ export default defineConfig({
   ignoreDeadLinks: true,
   lastUpdated: true,
   cleanUrls:true,
-  sidebar: false,
   markdown: {
     lineNumbers: true,
   },
   themeConfig: {
+    sidebar: false, // 关闭侧边栏
+    aside: "left", // 设置右侧侧边栏在左侧显示
+    outlineTitle:"文章目录",
+    outiine: [2,6],
     search: {
       provider: 'local',
       options: {

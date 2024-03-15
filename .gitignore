@@ -14,6 +14,8 @@ html2md
 Icon?
 dist-ssr
 Thumbs.db
+.htaccess
+.htpasswd
 */.DS_Store
 ehthumbs.db
 node_modules
