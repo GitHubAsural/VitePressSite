@@ -14,10 +14,8 @@ read -p "(回车使用默认提交信息：$default_commit): " msg
 
 msg="${msg:-$default_commit}"
 
-if [ !-d .git ]; then
+if [ ! -d .git ]; then
   git init
-else
-  echo "本地已经执行过git init，不再执行。"
 fi
 
 git add -A
