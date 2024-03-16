@@ -32,7 +32,7 @@ git add -A
 
 git commit -m "${msg}"
 
-git push -v -f git@github.com:GitHubAsural/VitePressSite.git
+# git push -v -f git@github.com:GitHubAsural/VitePressSite.git
 
 # cd -
 # rm -rf docs/.vitepress/dist node_modules docs/.vitepress/cache
