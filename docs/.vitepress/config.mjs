@@ -14,8 +14,6 @@ export default defineConfig({
     lineNumbers: true,
   },
   themeConfig: {
-    sidebar: false, // 关闭侧边栏
-    aside: "left", // 设置右侧侧边栏在左侧显示
     outlineTitle:"文章目录",
     outiine: [2,6],
     search: {
