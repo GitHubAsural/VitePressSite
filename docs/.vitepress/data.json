@@ -220,6 +220,24 @@
         "collapsed": true,
         "items": [
           {
+            "text": "源文件",
+            "collapsed": true,
+            "items": [
+              {
+                "text": "2.operation.py.源",
+                "link": "documents/Git操作/Git操作/源文件/2.operation.py.源.md"
+              },
+              {
+                "text": "1.deploy.sh",
+                "link": "documents/Git操作/Git操作/源文件/1.deploy.sh.md"
+              },
+              {
+                "text": "3.operation.py.集",
+                "link": "documents/Git操作/Git操作/源文件/3.operation.py.集.md"
+              }
+            ]
+          },
+          {
             "text": "1..gitignore文件常见错误",
             "link": "documents/Git操作/Git操作/1..gitignore文件常见错误.md"
           },
